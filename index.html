@@ -1,0 +1,65 @@
+<!DOCTYPE html />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Inscriptions</title>
+</head>
+<body>
+    <div class="container">
+        <form class="form">
+            <div id="sec1" class="containe">
+                <h2 class="text-blue">General Information</h2>
+                <select name="title" class="inline text-black">
+                    <option value="0">Title</option>
+                </select>
+
+                <section class="inline">
+                        <input type="text" name="first" class="text-black element48" placeholder="First Name" />
+                        <input type="text" name="last" class="text-black element48" placeholder="Last Name" />
+                </section>
+
+                <select name="Position" class="inline text-black">
+                    <option value="0">Position</option>
+                </select>
+
+                <input type="text" name="company" placeholder="Company" class="inline text-black" />
+
+                <section class="inline">
+                        <input type="text" name="BussnessArea" placeholder="Busness Area" class="text-black element60" />
+                        <select name="employees" class="text-black element35">
+                            <option value="0">Employees</option>
+                        </select>
+                </section>
+            </div>
+            <div id="sec2" class="containe">
+                <h2 class="text-white">Contact Détails</h2>
+                <input type="tel" name="street" placeholder="Street + Nr" class="inline text-white" />
+                <input type="text" name="Additional" placeholder="Additional Info" class="inline text-white" />
+                <section class="inline">
+                    <input type="number" name="ZipCode" placeholder="Zip Code" class="text-white element35" />
+                    <select name="Place" class="element60 text-white">
+                        <option value="0" disabled selected >Place</option>
+                    </select>
+                </section>
+                <select name="Country" class="inline text-white">
+                    <option value="0" class="text-white">Country</option>
+                </select>
+                <section class="inline">
+                    <input type="tel" name="codeNum" maxlength="3" placeholder="Code +" class="text-white element35" />
+                    <input type="tel" name="phoneNumber" maxlength="10" placeholder="Phone Number" class="text-white element60" />
+                </section>
+                <input type="email" name="mail" placeholder="Your Email" class="inline text-white" /><br />
+                <label class="text-white">
+                    <input type="radio" />I do Accept the <a href="">Termes and conditions</a> of your site
+                </label>
+                <br>
+                <br>
+                <button type="submit" class="submit">Register Badge</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
